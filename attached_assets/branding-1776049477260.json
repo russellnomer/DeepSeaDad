@@ -1,0 +1,90 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#004AAD",
+    "secondary": "#C2B280",
+    "accent": "#13AFF0",
+    "background": "#FFFFFF",
+    "textPrimary": "#000000",
+    "link": "#13AFF0"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Open Sans",
+      "heading": "Open Sans"
+    },
+    "fontStacks": {
+      "heading": [
+        "Open Sans",
+        "sans-serif"
+      ],
+      "body": [
+        "Open Sans",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Open Sans",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "70px",
+      "h2": "42px",
+      "body": "18px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "4px"
+  },
+  "components": {},
+  "images": {
+    "logo": "https://peconicstarfishing.com/wp-content/uploads/2026/03/peconic-star-logo-removebg-preview.png",
+    "favicon": "https://peconicstarfishing.com/wp-content/uploads/2026/03/cropped-cropped-peconic-star-iconic-32x32.jpg",
+    "ogImage": "https://peconicstarfishing.com/wp-content/uploads/2026/03/final-wave-bg.png",
+    "logoHref": "https://peconicstarfishing.com/",
+    "logoAlt": "Peconic Star Fleet"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, located in the header, has a medium/large size, and links to the homepage. The alt text matches the brand name 'Peconic Star Fleet'.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "fishing enthusiasts and tourists"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0,
+    "colors": 0.95,
+    "overall": 0.475
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, has a medium/large size, and links to the homepage. The alt text matches the brand name 'Peconic Star Fleet'.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": false,
+      "llmSucceeded": false
+    }
+  }
+}

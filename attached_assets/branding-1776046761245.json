@@ -1,0 +1,141 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#2162A1",
+    "secondary": "#CC0C39",
+    "accent": "#FFD814",
+    "background": "#FFFFFF",
+    "textPrimary": "#0F1111",
+    "link": "#FFD814"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Arial",
+      "heading": "Arial"
+    },
+    "fontStacks": {
+      "heading": [
+        "Arial",
+        "sans-serif"
+      ],
+      "body": [
+        "Arial",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "14px",
+      "h2": "14px",
+      "body": "14px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "4px"
+  },
+  "components": {
+    "input": {
+      "background": "transparent",
+      "textColor": "#111111",
+      "borderColor": null,
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#FFD814",
+      "textColor": "#0F1111",
+      "borderRadius": "2px",
+      "borderRadiusCorners": {
+        "topLeft": "2px",
+        "topRight": "2px",
+        "bottomRight": "2px",
+        "bottomLeft": "2px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#FFFFFF",
+      "textColor": "#0F1111",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.png",
+    "favicon": null,
+    "ogImage": null,
+    "logoHref": "/ref=nav_logo",
+    "logoAlt": "Amazon"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 4,
+    "reasoning": "Selected #4 because it is visible, located in the header, and matches the brand 'Amazon' with a medium size, making it the primary brand logo.",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "See Similar Items",
+      "reasoning": "Button #2 with background color #FFD814 is vibrant and action-oriented with the text 'See Similar Items', making it a strong candidate for the primary CTA."
+    },
+    "secondary": {
+      "index": 4,
+      "text": "Add to List",
+      "reasoning": "Button #4 with background color #FFFFFF is less prominent and serves a secondary function with the text 'Add to List'."
+    },
+    "confidence": 0.9
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "general consumers"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.9,
+    "colors": 0.95,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 4,
+        "selectedLogoReasoning": "Selected #4 because it is visible, located in the header, and matches the brand 'Amazon' with a medium size, making it the primary brand logo.",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

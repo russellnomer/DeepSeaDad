@@ -1,0 +1,143 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#FFD814",
+    "secondary": "#CC0C39",
+    "accent": "#FFA41C",
+    "background": "#FFFFFF",
+    "textPrimary": "#0F1111",
+    "link": "#2162A1"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Arial",
+      "heading": "Arial"
+    },
+    "fontStacks": {
+      "heading": [
+        "Arial",
+        "sans-serif"
+      ],
+      "body": [
+        "Arial",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "14px",
+      "h2": "14px",
+      "body": "14px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "4px"
+  },
+  "components": {
+    "input": {
+      "background": "transparent",
+      "textColor": "#111111",
+      "borderColor": null,
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#FFA41C",
+      "textColor": "#0F1111",
+      "borderColor": "#FFA41C",
+      "borderRadius": "100px",
+      "borderRadiusCorners": {
+        "topLeft": "100px",
+        "topRight": "100px",
+        "bottomRight": "100px",
+        "bottomLeft": "100px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#FFD814",
+      "textColor": "#0F1111",
+      "borderColor": "#FFD814",
+      "borderRadius": "100px",
+      "borderRadiusCorners": {
+        "topLeft": "100px",
+        "topRight": "100px",
+        "bottomRight": "100px",
+        "bottomLeft": "100px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.png",
+    "favicon": null,
+    "ogImage": null,
+    "logoHref": "/ref=nav_logo",
+    "logoAlt": "Amazon"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 6,
+    "reasoning": "Selected #6 because it is visible, located in the header, and matches the brand 'Amazon' with a medium size, making it the primary logo.",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Buy Now",
+      "reasoning": "Button #0 'Buy Now' is the primary CTA due to its vibrant orange color (#FFA41C) and action-oriented text, making it stand out as the main call-to-action."
+    },
+    "secondary": {
+      "index": 3,
+      "text": "Add to cart",
+      "reasoning": "Button #3 'Add to cart' is selected as secondary because it has a different vibrant color (#FFD814) and serves as a complementary action to the primary CTA."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "general consumers"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 6,
+        "selectedLogoReasoning": "Selected #6 because it is visible, located in the header, and matches the brand 'Amazon' with a medium size, making it the primary logo.",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

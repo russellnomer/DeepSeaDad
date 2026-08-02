@@ -1,0 +1,1 @@
+- [Deep Sea Dad Revenue Model](deep-sea-dad-revenue.md) — affiliate links (Amazon Associates tag `deepseadad-20`), email list via DB, tackle box gate, share button
